@@ -2,4 +2,5 @@
 Estudos de Java para aperfeiçoamento.
 
 Programas:
-Programa Idade (Fácil)
+Programa Idade (Simples)
+Comparador (Simples)
