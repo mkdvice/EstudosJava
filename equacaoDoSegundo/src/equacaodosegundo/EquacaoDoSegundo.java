@@ -28,8 +28,12 @@ public class EquacaoDoSegundo {
         System.out.print("Digite o valor de C: ");
         int c = teclado.nextInt();
         
-        System.out.print("Valor de Delta é: ");
+        System.out.println("X² + x + c = 0");
+        System.out.println("b² - 4 * a * c");
+        System.out.printf("%d",(b) , "² + ", "- 4 * ", + a, "* ", + c, "\n" );
+                
         double d = Math.pow(b,2) - 4 * a * c;
+        System.out.println("Valor de Delta é: " + d);
         
         double x1 = (- b - Math.sqrt(d)) / (2 * a);
         System.out.println("Valor de X linha é: " + x1);
